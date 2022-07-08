@@ -15,7 +15,7 @@ spec:
         app: app-deploy
     spec:
       containers:
-      - image: a30sham/candyshopapp
+      - image: a30sham/candyshopappjwt
         name: candyshopapp
         env:
         - name: DB_HOST
